@@ -14,16 +14,9 @@ module Problem6
 
   def self.answer(range)
 
-    sum_of_sq = 0
-    range.each do |n|
-      s = n**2
-      sum_of_sq += s
-    end
-    
-    sum_range = range.reduce(:+)
-    sq_of_sum = sum_range ** 2
-
-    return sq_of_sum - sum_of_sq
+    sum_of_squares = range.map { |n| n**2}.reduce(:+)
+    square_of_sums = range.reduce(:+)**2
+    return square_of_sums - sum_of_squares
 
   end
 
