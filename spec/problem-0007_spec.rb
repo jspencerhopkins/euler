@@ -5,14 +5,14 @@
 
 require './lib/problem-0007'
 
-describe 'Prime number position' do
+describe 'Prime number' do
   
   it 'in the 6th place' do
-    expect(Problem7.prime_place(6)).to eq 13
+    expect(prime_place(6)).to eq 13
   end
 
   it 'in the 10,001st place' do
-    expect(Problem7.prime_place(10001)).to eq 104743
+    expect(prime_place(10001)).to eq 104743
   end
 
 end
