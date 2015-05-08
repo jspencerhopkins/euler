@@ -3,3 +3,12 @@
 
 # What is the smallest positive number that is evenly 
 # divisible by all of the numbers from 1 to 20?
+
+module Problem5
+
+  def self.answer(range)
+    list = range.inject(:lcm)
+    return list
+  end
+
+end
