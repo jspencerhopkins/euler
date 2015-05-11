@@ -6,12 +6,12 @@
 # There exists exactly one Pythagorean triplet for which a + b + c = 1000.
 # Find the product abc.
 
-module Problem9
+# module Problem9
 
-  def self.triplet_product(triplet_sum)
+#   def self.triplet_product(triplet_sum)
 
 
 
-  end
+#   end
 
-end
+# end
