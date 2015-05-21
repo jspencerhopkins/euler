@@ -9,3 +9,12 @@
 
 # What is the total of all the name scores in the file?
 
+require './lib/problem-0022'
+
+describe 'Names score' do
+
+  it 'of p0022_names.txt file' do
+    expect(Problem22.answer('./bin/p0022_names.txt')).to eq 871198282
+  end
+
+end
