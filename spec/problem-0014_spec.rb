@@ -15,3 +15,11 @@
 # NOTE: Once the chain starts the terms are allowed to go above one million.
 
 require './lib/problem-0014'
+
+describe 'Number that produces longest chain length' do
+
+  it 'under 1,000,000' do
+    expect(Problem14.answer(1000000)).to eq 837799
+  end
+
+end
