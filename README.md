@@ -1,6 +1,6 @@
 # Project Euler + Ruby + TDD
 
-These are my attempts to solve the [Project Euler](projecteuler.net) problems TDD and Ruby.
+These are my attempts to solve the [Project Euler](projecteuler.net) problems using TDD and Ruby.
 
 The tricky part about using TDD to solve the problems is that I have to know the answer to build the test...so, I have been looking up the answers prior to beginning to solve the problem.
 
