@@ -23,15 +23,16 @@ module Problem25
 
   def self.answer(digits)
 
-    n = -1
-    prev = 0
-    i = 1
-    while i.to_s.length < digits
-      n += 1
-      i, prev = prev, prev + i
-    end
+    fn_1 = 1
+    fn_2 = 1
+    count = 2
 
-    n
+    begin
+      fn_2, fn_1 = fn_1, fn_1 + fn_2
+      count += 1
+    end while fn_1.to_s.length < digits
+
+    count 
 
   end
 
